@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="@dimen/dimens_20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/solid_black"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llReplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimens_8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/dimens_5dp"
+                android:text="@string/replace_in_trip"
+                android:textSize="@dimen/text_size_17_sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_5dp"
+                android:contentDescription="@string/more"
+                android:src="@drawable/replace" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_point_5dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/llReorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimens_8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/dimens_5dp"
+                android:text="@string/reorder_in_trip"
+                android:textSize="@dimen/text_size_17_sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_5dp"
+                android:contentDescription="@string/more"
+                android:src="@drawable/reorder" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_point_5dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/llWishList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimens_8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/dimens_5dp"
+                android:text="@string/add_to_wishlist"
+                android:textSize="@dimen/text_size_17_sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_5dp"
+                android:contentDescription="@string/more"
+                android:src="@drawable/wishlist" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_point_5dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/llShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimens_8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/dimens_5dp"
+                android:text="@string/share"
+                android:textSize="@dimen/text_size_17_sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_5dp"
+                android:contentDescription="@string/more"
+                android:src="@drawable/share" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_point_5dp"
+            android:background="@color/light_gray" />
+
+        <LinearLayout
+            android:id="@+id/llDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimens_8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/dimens_5dp"
+                android:text="@string/remove_from_trip"
+                android:textSize="@dimen/text_size_17_sp"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimens_5dp"
+                android:contentDescription="@string/more"
+                android:src="@drawable/delete" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_point_5dp"
+            android:background="@color/light_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>

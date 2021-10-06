@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/topLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_point_5dp"
+        android:background="@color/light_gray"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topLine"
+        android:padding="@dimen/dimens_10dp"
+        android:visibility="visible"
+        android:background="@color/light_green">
+
+        <ImageView
+            android:id="@+id/ivMenuIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_5dp"
+            android:contentDescription="@string/app_name"
+            android:background="@color/light_green"
+            android:src="@drawable/menu" />
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimens_10dp"
+            android:layout_marginTop="@dimen/dimens_5dp"
+            android:layout_toStartOf="@+id/ivArrowIcon"
+            android:layout_toEndOf="@+id/ivMenuIcon"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:background="@color/light_green"
+            android:textSize="@dimen/text_size_17_sp"
+            />
+
+        <ImageView
+            android:id="@+id/ivArrowIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_5dp"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/app_name"
+            android:background="@color/light_green"
+            android:src="@drawable/right_arrow" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/bottomLine"
+        android:layout_below="@+id/rlMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_point_5dp"
+        android:background="@color/light_gray"
+        />
+
+</RelativeLayout>

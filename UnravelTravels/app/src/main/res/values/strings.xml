@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UnravelTravels</string>
+    <string name="munich">Munich</string>
+    <string name="more">More</string>
+    <string name="dest_size_text">(%d)</string>
+    <string name="title_activity_detail_page">DetailPageActivity</string>
+    <string name="replace_in_trip">Replace in trip</string>
+    <string name="reorder_in_trip">Reorder in trip</string>
+    <string name="add_to_wishlist">Add to WishList</string>
+    <string name="share">Share</string>
+    <string name="remove_from_trip">Remove from trip</string>
+</resources>
